@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/dwj/clj/tryone/src/" . "tryone/")
+ ("/home/dwj/clj/tryone/" . "src/")
+ ("/home/dwj/clj/" . "tryone/")
+ ("/home/dwj/" . "clj/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/dwj/clj/tryone/src/tryone/"
+ "/home/dwj/clj/tryone/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "project.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/dwj/clj/tryone/src/tryone/" (21201 7445 452229 191000) "./" "core.clj" "../")
+
+ ("/home/dwj/" (21201 7515 544232 582000) ".ICEauthority" "./" ".face" "Music/" ".compiz/" "Desktop/" ".pulse2.locator" ".smex-items" ".gstreamer-0.10/" ".gnome2/" ".lein/" ".mission-control/" "Workspaces/" "Templates/" "Public/" ".Xauthority" "examples.desktop" ".myeclipse/" ".pki/" "Downloads/" ".mozilla/" ".compiz-1/" ".xsession-errors.old" ".local/" ".m2/" "clj/" "Videos/" ".dbus/" ".pam_environment" ".ido.last" ".config/" ".bash_history" ".emacs.d/" ".rpmdb/" ".myeclipse.properties" "Pictures/" "bin/" ".bashrc" ".dmrc" ".nv/" "Documents/" ".xsession-errors" ".bash_logout" ".goutputstream-RXPL9W" ".profile" ".gconf/" "MyEclipse/" ".pulse-cookie" ".thumbnails/" ".gvfs/" ".java/" ".gtk-bookmarks" ".bashrc~" ".cache/" "../" ".pulse/")
+
+ ("/home/dwj/clj/tryone/src/" (21201 6050 796161 693000) "tryone/" "./" "../")
+
+ ("/home/dwj/clj/tryone/" (21201 6050 796161 693000) "./" "test/" ".gitignore" "LICENSE" "resources/" "project.clj" "doc/" "README.md" "src/" "../")
+
+ ("/home/dwj/clj/" (21201 6050 792161 692000) "tryone/" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
