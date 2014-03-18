@@ -224,11 +224,14 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 去掉工具栏
 (tool-bar-mode -1)
+;; 支持emacs和外部程序的粘贴
+(setq x-select-enable-clipboard t) 
+
 
 ;;去掉菜单栏
 (menu-bar-mode -1)
 
-(global-set-key [f5] 'speedbar) ;; 启动文件树
+(global-set-key [f11] 'speedbar) ;; 启动文件树
 
 (setq clojure-defun-style-default-indent t)
 (put 'downcase-region 'disabled nil)
@@ -239,4 +242,21 @@
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
+
+
+(global-linum-mode)
+
+
+;;;;;;;;;;;;;;;;;;;;;c/cpp mode;;;;;;;;;;;;;
+(setq gdb-many-windows t)
+(global-set-key [f6] 'gdb) 
+(global-set-key [f1] 'manual-entry)
+(global-set-key [f5] 'compile)
+
+;;;;;;;;;;;;;;;;;java develement 
+;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/jdee-2.4.1/lisp"))  
+;;(require 'jde) 
+;;  (autoload 'jde-mode "jde" "JDE mode" t)
+;;  (setq auto-mode-alist
+;;;        (append '(("\\.java\\'" . jde-mode)) auto-mode-alist))
 
